@@ -1,6 +1,6 @@
-# midnight-fox
+# decay-fox (Version Personal)
 
-A clean and simple firefox userchrome theme inspired by [FlyingFox](https://github.com/akshat46/FlyingFox).
+A clean and simple firefox userchrome theme inspired by [Decay](https://github.com/decaycs?type=source).
 
 ![image](https://user-images.githubusercontent.com/43517199/203351380-fde84b50-08e5-407e-bbc7-bc139fe5678f.png)
 
