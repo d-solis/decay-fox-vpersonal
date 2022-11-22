@@ -4,9 +4,9 @@
 @import 'hide-tabline.css';
 
 :root {
-	--wc-red: hsl(-10, 90%, 60%);
-	--wc-green: hsl(160, 90%, 40%);
-	--wc-yellow: hsl(50, 90%, 60%);
+	--wc-red: #e5646a;
+	--wc-green: #94F7C5;
+	--wc-yellow: #f6d48f;
 	--bg-primary: #101419;
 	--bg-secondary: #171b20;
 	--bg-tertiary: #101419;
@@ -15,7 +15,7 @@
 		in srgb,
 		currentColor 6%,
 		transparent
-	); /*hsla(210, 50%, 80%, 0.04);*/
+	); /*#101419;*/
 	--bg-active: color-mix(
 		in srgb,
 		currentColor 12%,
