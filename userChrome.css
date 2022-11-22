@@ -10,12 +10,12 @@
 	--bg-primary: #101419;
 	--bg-secondary: #171b20;
 	--bg-tertiary: #101419;
-	--bg-hover-light: hsla(210, 50%, 80%, 0.03);
+	--bg-hover-light: #171b20;
 	--bg-hover: color-mix(
 		in srgb,
 		currentColor 6%,
 		transparent
-	); /*#101419;*/
+	); /*#171b20;*/
 	--bg-active: color-mix(
 		in srgb,
 		currentColor 12%,
