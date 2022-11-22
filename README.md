@@ -2,7 +2,7 @@
 
 A clean and simple firefox userchrome theme inspired by [FlyingFox](https://github.com/akshat46/FlyingFox).
 
-![image](https://user-images.githubusercontent.com/34758569/175662486-e08443d9-fda8-4898-ad12-dc6e0c1b0429.png)
+![image](https://user-images.githubusercontent.com/43517199/203351380-fde84b50-08e5-407e-bbc7-bc139fe5678f.png)
 
 ## Installation
 
