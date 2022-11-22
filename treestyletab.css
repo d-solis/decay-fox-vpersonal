@@ -1,18 +1,22 @@
 :root {
-	--wc-red: hsl(-10, 90%, 60%);
-	--wc-green: hsl(160, 90%, 40%);
-	--wc-yellow: hsl(50, 90%, 60%);
-	--bg-primary: #151a1f;
-	--bg-secondary: #1b2127;
-	--bg-tertiary: #222930;
+	--wc-red: #e5646a;
+	--wc-green: #94F7C5;
+	--wc-yellow: #f6d48f;
+	--bg-primary: #101419;
+	--bg-secondary: #171b20;
+	--bg-tertiary: #101419;
 	--bg-hover-light: hsla(210, 50%, 80%, 0.03);
-	--bg-hover: #1b2127;
-	--bg-active: #222930;
-	--text-bright: hsl(210, 50%, 95%);
-	--text-primary: #8599ad;
-	--text-secondary: #5c738a;
-	--text-tertiary: #3b4a59;
-	--accent: hsl(190, 60%, 50%);
+	--bg-hover: color-mix(
+		in srgb,
+		currentColor 6%,
+		transparent
+	); /*#101419;*/
+	--bg-active: #10141;
+	--text-bright: #e3e6eb;
+	--text-primary: #dee1e6;
+	--text-secondary: #dee1e6;
+	--text-tertiary: #e3e6eb;
+	--accent: #70a5eb;
 	--shadow: 0 0 4px hsla(0, 0%, 0%, 0.4);
 	--roundness: 12px;
 	--roundness-small: 8px;
