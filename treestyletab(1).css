@@ -1,0 +1,122 @@
+:root {
+	--wc-red: #e5646a;
+	--wc-green: #94F7C5;
+	--wc-yellow: #f6d48f;
+	--bg-primary: #101419;
+	--bg-secondary: #171b20;
+	--bg-tertiary: #101419;
+	--bg-hover-light: #171b20;
+	--bg-hover: #171b20;
+	--text-bright: #e3e6eb;
+	--text-primary: #dee1e6;
+	--text-secondary: #dee1e6;
+	--text-tertiary: #e3e6eb;
+	--accent: #70a5eb;
+	--shadow: 0 0 4px hsla(0, 0%, 0%, 0.4);
+	--roundness: 12px;
+	--roundness-small: 8px;
+	--roundness-tiny: 4px;
+	--navbar-height: 56px;
+	--sidebar-collapsed-width: 56px;
+	--sidebar-width: 150px;
+	--transition-duration: 0.2s;
+	--transition-ease: ease-out;
+}
+
+tab-item * {
+	--tab-surface: var(--bg-primary) !important;
+	--tab-text: var(--text-primary) !important;
+}
+
+tab-item .background {
+	bottom: 2px;
+	top: 2px;
+	left: 0;
+	right: 0;
+	border-radius: var(--roundness-small) !important;
+	box-shadow: none !important;
+	opacity: 1 !important;
+}
+
+tab-item:hover .background {
+	background: var(--bg-hover);
+}
+
+tab-item:active .background {
+	background: var(--bg-active);
+}
+
+tab-item.active .background {
+	background: var(--bg-active);
+}
+
+tab-item tab-item-substance {
+	padding: 10px 10px 10px 5px !important;
+	border: none;
+}
+
+#tabbar tab-item:not(:hover) tab-closebox {
+	margin-right: -26px;
+}
+
+#tabbar {
+	padding: 0 10px 10px 10px;
+	scrollbar-color: var(--bg-primary) transparent;
+}
+
+#tabbar-container {
+	background: var(--bg-primary) !important;
+}
+
+tab-item .label {
+	margin-right: 10px;
+}
+
+tab-item .counter {
+	display: none !important;
+}
+
+tab-item .sound-button {
+	margin-right: 0px;
+}
+
+tab-item tab-favicon {
+	order: 10 !important;
+	margin-right: 10px;
+	margin-left: 10px;
+	transition: margin-right var(--transition-duration) var(--transition-ease);
+}
+
+tab-item tab-closebox {
+	transition: margin-right var(--transition-duration) var(--transition-ease);
+	padding: var(--tab-closebox-offset) 0;
+}
+
+tab-item tab-closebox::before {
+	border-radius: var(--roundness-tiny);
+}
+
+.newtab-button {
+	padding: 12px !important;
+}
+
+.newtab-button::before {
+	bottom: 2px !important;
+	top: 2px !important;
+	left: 0 !important;
+	right: 0 !important;
+	border-radius: var(--roundness-small) !important;
+}
+
+.newtab-button:hover::before {
+	opacity: 1 !important;
+	background: var(--bg-hover) !important;
+}
+
+.newtab-button:active::before {
+	background: var(--bg-active) !important;
+}
+
+#tabbar + .after-tabs .newtab-button-box {
+	padding: 0px 10px 10px 18px;
+}
