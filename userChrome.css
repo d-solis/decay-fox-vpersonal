@@ -11,16 +11,7 @@
 	--bg-secondary: #171b20;
 	--bg-tertiary: #101419;
 	--bg-hover-light: #171b20;
-	--bg-hover: color-mix(
-		in srgb,
-		currentColor 6%,
-		transparent
-	); /*#171b20;*/
-	--bg-active: color-mix(
-		in srgb,
-		currentColor 12%,
-		transparent
-	); /*#171b20;*/
+	--bg-hover: #171b20
 	--text-bright: #e3e6eb;
 	--text-primary: #dee1e6;
 	--text-secondary: #dee1e6;
